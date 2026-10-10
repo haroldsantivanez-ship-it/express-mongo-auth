@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
     res.json({
-        message: "API de usuarios funcionando",
+        message: "API de Harold actualizada con GitHub Actions",
         users: "/api/users"
     });
 });
